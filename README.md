@@ -1,3 +1,3 @@
 # Kondi-projekt
-Üdvözöllek a projektben! 
+Ez a kondiprojekt.
 Sok sikert!
