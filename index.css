@@ -1,0 +1,100 @@
+.header {
+    text-align: center;
+    color: white;
+    background-color:rgb(108, 200, 223) ;
+    background-image: url(https://cdn.nwmgroups.hu/s/img/i/1905/20190517mopsz1.jpg?w=800&h=533&t=5);
+    margin: auto;
+    padding: 10px;  
+    size: 50px;  
+}
+.body{
+    margin: auto;
+}
+.topnav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    overflow:hidden;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    padding: auto; 
+}
+.column{
+    float: left;
+    padding: 15px;
+}
+.column1{
+    text-align:left;
+    float: left;
+    width: 50%;
+   
+}
+.column2{
+    text-align:right ;
+    float: right;
+    width: 50%; 
+    height: 300px;
+}
+.row{
+    padding: 25px;
+    background-color:rgb(147, 206, 221);
+    border-bottom:solid black 1px ;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (
+    max-width:600px
+){
+    .column1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+}
+.column2 iframe{
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.column3{
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+.column4{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.top {
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: rgb(78, 78, 78);
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 8px;
+font-size: 18px;
+background-color: black;
+}  
