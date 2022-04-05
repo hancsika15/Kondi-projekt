@@ -2,7 +2,7 @@
     text-align: center;
     color: white;
     background-color:rgb(108, 200, 223) ;
-    background-image: url(https://cdn.nwmgroups.hu/s/img/i/1905/20190517mopsz1.jpg?w=800&h=533&t=5);
+    background-image : radial-gradient(circle,black ,rgb(118, 202, 228) , rgb(108, 200, 223));
     margin: auto;
     padding: 10px;  
     size: 50px;  
