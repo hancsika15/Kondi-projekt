@@ -98,3 +98,19 @@ border-radius: 8px;
 font-size: 18px;
 background-color: black;
 }  
+@media screen and (max-width:1000px) {
+	
+    
+        p.fontos {
+            float:none;				
+            width:75%;			
+            margin-top:0;			
+            margin-right:0;			
+            margin-bottom:0;		
+            margin-left:10px;		
+            transform:rotate(0);	
+            font-size:120%;			
+            }
+        body {width:90%;}           
+    }
+        
